@@ -3,7 +3,8 @@
 ## Scoring
 
 0. Rules:
-    0. Aside from one-time costs, a proper metamachine should not require ongoing funding to continue functioning. You may find [this list](https://github.com/ripienaar/free-for-dev/blob/master/README.md) of free resources useful.
+
+    i. Aside from one-time costs, a proper metamachine should not require ongoing funding to continue functioning. You may find [this list](https://github.com/ripienaar/free-for-dev/blob/master/README.md) of free resources useful.
 
 1. Create a graph of your metamachine. Nodes are services, machines, and APIs. Edges are interactions.
 
@@ -25,9 +26,11 @@ score =
 ## [boot.is](http://boot.is) score
 
 0. Compliance:
-    0. No ongoing resource costs. The `boot.is` domain did cost money, but it not required for the ongoing function of the metamachine.
 
-1. ![architecture diagram](boot.png)
+    i. No ongoing resource costs. The `boot.is` domain did cost money, but it not required for the ongoing function of the metamachine.
+
+1. Architecture diagram:
+    ![architecture diagram](boot.png)
 
 2. Score:
 
