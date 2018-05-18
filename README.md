@@ -1,5 +1,6 @@
 # boot / ⠛⠕⠞⠞⠁⠀⠃⠕⠕⠞⠀⠮⠀⠍⠑⠞⠁⠍⠁⠡⠔⠑
 
+[![build status](https://travis-ci.org/casey/just.svg?branch=master)](https://travis-ci.org/casey/just)
 [![chat](https://badges.gitter.im/boot-the-metamachine/Lobby.svg)](https://gitter.im/boot-the-metamachine/Lobby)
 
 ## Scoring
