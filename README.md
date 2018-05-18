@@ -1,6 +1,6 @@
 # boot / ⠛⠕⠞⠞⠁⠀⠃⠕⠕⠞⠀⠮⠀⠍⠑⠞⠁⠍⠁⠡⠔⠑
 
-[![Join the chat at https://gitter.im/boot-the-metamachine/Lobby](https://badges.gitter.im/boot-the-metamachine/Lobby.svg)](https://gitter.im/boot-the-metamachine/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![chat](https://badges.gitter.im/boot-the-metamachine/Lobby.svg)](https://gitter.im/boot-the-metamachine/Lobby)
 
 ## Scoring
 
