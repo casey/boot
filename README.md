@@ -1,5 +1,7 @@
 # boot / ⠛⠕⠞⠞⠁⠀⠃⠕⠕⠞⠀⠮⠀⠍⠑⠞⠁⠍⠁⠡⠔⠑
 
+[![chat](https://badges.gitter.im/boot-the-metamachine/Lobby.svg)](https://gitter.im/boot-the-metamachine/Lobby)
+
 ## Scoring
 
 0. Rules:
