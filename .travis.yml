@@ -1,5 +1,9 @@
+language: rust
+
 script:
 - perl -pi -e 's/>(\d+)</">".(1+$1)."<"/ge' index.html
+- cargo install imglife
+- imglife --alive '#00D1FB' --dead black favicon.png favicon.png
 - git config --global user.name Root
 - git config --global user.email root@boot.is
 - git commit -avm "It's all grist for the mill…"
