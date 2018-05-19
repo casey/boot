@@ -1,5 +1,9 @@
 language: rust
 
+cache:
+  directories:
+    - /home/travis/.cargo/bin/
+
 script:
 - perl -pi -e 's/>(\d+)</">".(1+$1)."<"/ge' index.html
 - cargo install imglife
