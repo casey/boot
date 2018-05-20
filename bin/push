@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+export GIT_SSH_COMMAND='ssh -i id_rsa'
+
+for BRANCH in `ls update`; do
+  git push git@github.com:casey/boot.git HEAD:$BRANCH
+done
