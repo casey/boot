@@ -3,11 +3,13 @@
 [![build status](https://travis-ci.org/casey/boot.svg?branch=master)](https://travis-ci.org/casey/boot)
 [![chat](https://badges.gitter.im/boot-the-metamachine/Lobby.svg)](https://gitter.im/boot-the-metamachine/Lobby)
 
-## Scoring
+## metamachine scoring
 
 0. Rules:
 
-    i. Aside from one-time costs, a proper metamachine should not require ongoing funding to continue functioning. You may find [this list](https://github.com/ripienaar/free-for-dev/blob/master/README.md) of free resources useful.
+    ⅰ. Aside from one-time costs, a proper metamachine should not require ongoing funding to continue functioning. You may find [this list](https://github.com/ripienaar/free-for-dev/blob/master/README.md) of free resources useful.
+
+    ⅱ. A metamachine should continue operating indefinitely without the creator's interaction or intervention.
 
 1. Create a graph of your metamachine. Nodes are services, machines, and APIs. Edges are interactions.
 
