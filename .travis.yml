@@ -1,12 +1,8 @@
 script:
-- perl -pi -e 's/>(\d+)</">".(1+$1)."<"/ge' index.html
-- wget 'https://github.com/casey/imglife/releases/download/v1.0.7/imglife-v1.0.7-x86_64-unknown-linux-musl.tar.gz' -O imglife.tar.gz
-- tar xvf imglife.tar.gz
-- ./imglife --alive '#00D1FB' --dead black favicon.png favicon.png
 - git config --global user.name Root
 - git config --global user.email root@boot.is
-- git commit -avm "It's all grist for the mill…"
-- openssl aes-256-cbc -K $encrypted_8c88444d638f_key -iv $encrypted_8c88444d638f_iv
-  -in id_rsa.enc -out id_rsa -d
+- openssl aes-256-cbc -K $encrypted_8c88444d638f_key -iv $encrypted_8c88444d638f_iv -in id_rsa.enc -out id_rsa -d
 - chmod 0400 id_rsa
-- GIT_SSH_COMMAND='ssh -i id_rsa' git push git@github.com:casey/boot.git HEAD:master
+- ./update/$TRAVIS_BRANCH
+- for BRANCH in `ls update`; do GIT_SSH_COMMAND='ssh -i id_rsa' git pull --rebase git@github.com:casey/boot.git $BRANCH; done
+- for BRANCH in `ls update`; do GIT_SSH_COMMAND='ssh -i id_rsa' git push git@github.com:casey/boot.git HEAD:$BRANCH; done

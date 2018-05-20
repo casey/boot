@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -eu
+
+perl -pi -e 's/>(\d+)</">".(1+$1)."<"/ge' index.html
+
+git add index.html
+
+git commit -m "It's all grist for the mill…"

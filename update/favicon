@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -eu
+
+wget 'https://github.com/casey/imglife/releases/download/v1.0.7/imglife-v1.0.7-x86_64-unknown-linux-musl.tar.gz' -O imglife.tar.gz
+
+tar xvf imglife.tar.gz
+
+./imglife --alive '#00D1FB' --dead black favicon.png favicon.png
+
+git add favicon.png
+
+git commit -m "Conway would be proud!"
