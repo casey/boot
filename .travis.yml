@@ -1,13 +1,8 @@
-language: rust
-
-cache:
-  directories:
-    - /home/travis/.cargo/bin/
-
 script:
 - perl -pi -e 's/>(\d+)</">".(1+$1)."<"/ge' index.html
-- which imglife || cargo install imglife
-- imglife --alive '#00D1FB' --dead black favicon.png favicon.png
+- wget 'https://github.com/casey/imglife/releases/download/v1.0.7/imglife-v1.0.7-x86_64-unknown-linux-musl.tar.gz' -O imglife.tar.gz
+- tar xvf imglife.tar.gz
+- ./imglife --alive '#00D1FB' --dead black favicon.png favicon.png
 - git config --global user.name Root
 - git config --global user.email root@boot.is
 - git commit -avm "It's all grist for the mill…"
