@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euxo pipefail
+
+for BRANCH in `ls update`;
+  do GIT_SSH_COMMAND='ssh -i id_rsa' git pull --rebase git@github.com:casey/boot.git $BRANCH;
+done
+
+for BRANCH in `ls update`;
+  do GIT_SSH_COMMAND='ssh -i id_rsa' git push git@github.com:casey/boot.git HEAD:$BRANCH;
+done

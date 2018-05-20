@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eu
+set -euxo pipefail
 
 wget 'https://github.com/casey/imglife/releases/download/v1.0.7/imglife-v1.0.7-x86_64-unknown-linux-musl.tar.gz' -O imglife.tar.gz
 
