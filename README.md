@@ -3,6 +3,8 @@
 [![build status](https://travis-ci.org/casey/boot.svg?branch=master)](https://travis-ci.org/casey/boot)
 [![chat](https://badges.gitter.im/boot-the-metamachine/Lobby.svg)](https://gitter.im/boot-the-metamachine/Lobby)
 
+[wut?](https://youtu.be/TURoRXbWBWk)
+
 ## metamachine scoring
 
 0. Rules:
