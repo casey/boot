@@ -19,7 +19,8 @@ score =
     (length of the longest loop in the graph - 1)
   + (number of unique node types - 2)
   + (monthly resource cost / $100)
-  + is_useful            * 8   # does the metamachine provide a useful service?
+  + new tos clause       * 4   # was a clause added to a service's TOS to outlaw your metamachine?
+  + is useful            * 8   # does the metamachine provide a useful service?
   + creative node types  * 16  # minecraft servers, excel spreadsheets, etc involved
   + has human cog        * 32  # is there an unwitting human somewhere in the loop?
   + is turing complete   * 64  # is the metamachine capable of arbitrary computation?
