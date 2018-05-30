@@ -1,0 +1,9 @@
+digraph {
+  rankdir="LR"
+
+  A [ label="GitHub"    shape="circle" fixedsize=true width=1]
+  B [ label="Travis CI" shape="circle" fixedsize=true width=1]
+
+  A -> B
+  B -> A
+}
