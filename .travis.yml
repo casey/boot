@@ -1,5 +1,5 @@
 before_script:
-- "[[ `sed -nE 's:.*>([0-9]+)</.*:\1:p' index.html` -lt 1000000 ]]"
+- '[[ `sed -nE ''s:.*>([0-9]+)</.*:\1:p'' index.html` -lt 1000000 ]]'
 script:
 - git config --global user.name Root
 - git config --global user.email root@boot.is
